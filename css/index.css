@@ -1038,7 +1038,7 @@ p .highlighter{
 
   }
 
-  @media(max-width:800px){
+  @media(max-width:750px){
     .circulos .circulo{
       width: 40%;
       height: 40%;
