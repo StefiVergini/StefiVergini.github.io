@@ -155,10 +155,10 @@ const gallery = {
         "img/certifications/CFP-Java.png",
         "img/certifications/AWS_Academy_Cloud_Foundations.jpg",
         "img/certifications/AWS_Academy_Cloud_Operations.jpg",
-        "img/certifications/educacionit-php-mysql.jpg",
+        "img/certifications/educacionit-phpmysql.jpg",
         "img/certifications/educacionit-bdd.jpg",
-        "img/certifications/educacionit-javascript.jpg",
-        "img/certifications/educacionit-html5.jpg"
+        "img/certifications/educacionit-js.jpg",
+        "img/certifications/educacionit-html.jpg"
     ]
     
 
@@ -280,7 +280,7 @@ document
 });
 
 
-modalImage.style.opacity = 0;
+/*modalImage.style.opacity = 0;
 
 setTimeout(()=>{
 
@@ -288,18 +288,8 @@ setTimeout(()=>{
 
     modalImage.style.opacity = 1;
 
-},150);
+},150);*/
 
-//cerrar tecla scape
-document.addEventListener("keydown",(e)=>{
-
-    if(e.key==="Escape"){
-
-        modal.classList.remove("open");
-
-    }
-
-});
 
 // ver imagenes con flechas del teclado
 document.addEventListener("keydown", (e) => {

@@ -461,7 +461,7 @@ section h2{
 
     display:grid;
 
-    grid-template-columns:repeat(auto-fit,minmax(430px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
 
     gap:2rem;
 
@@ -1075,5 +1075,23 @@ p .highlighter{
     .nav.open{
 
         right:20px;
+    }
+      .hero-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero-content pre {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .hero-content code {
+        font-size: .85rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
     }
   }
