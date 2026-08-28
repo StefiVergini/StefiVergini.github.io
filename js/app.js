@@ -155,10 +155,10 @@ const gallery = {
         "img/certifications/CFP-Java.png",
         "img/certifications/AWS_Academy_Cloud_Foundations.jpg",
         "img/certifications/AWS_Academy_Cloud_Operations.jpg",
-        "img/certifications/EducacionIt-PHP-MySQL.jpg",
-        "img/certifications/EducacionIt-Bases-de-Datos-SQL.jpg",
-        "img/certifications/EducacionIt-Javascript.jpg",
-        "img/certifications/EducacionIt-HTML5.jpg"
+        "img/certifications/educacionit-php-mysql.jpg",
+        "img/certifications/educacionit-bdd.jpg",
+        "img/certifications/educacionit-javascript.jpg",
+        "img/certifications/educacionit-html5.jpg"
     ]
     
 
